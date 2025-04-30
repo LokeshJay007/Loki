@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Priya</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe4e1; /* Light pink background */
+            color: #333; /* Dark text for contrast */
+        }
+        header {
+            background-color: #ff69b4; /* Pink header */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            animation: fadeIn 3s;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .gallery img, .gallery video {
+            width: 250px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .wishes {
+            font-size: 1.2rem;
+            margin: 20px auto;
+            max-width: 700px;
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #ff69b4;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Happy Birthday Priya</h1>
+        <nav>
+            <a href="#gallery">Photos & Videos</a>
+            <a href="#wishes">Birthday Wishes</a>
+        </nav>
+    </header>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/250x150" alt="Photo 1">
+            <img src="https://via.placeholder.com/250x150" alt="Photo 2">
+            <video src="https://via.placeholder.com/250" controls></video>
+        </div>
+    </section>
+    <section id="wishes">
+        <h2>Birthday Wishes</h2>
+        <div class="wishes">
+            <p>Dear Priya,</p>
+            <p>Wishing you the happiest 22nd birthday! May your day be filled with love, laughter, and endless joy.</p>
+            <p>– Loki</p>
+        </div>
+    </section>
+    <footer>
+        <p>Created with ❤️ by Loki | Loki Creations</p>
+    </footer>
+</body>
+</html>
